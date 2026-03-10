@@ -1,0 +1,70 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String     @id @default(cuid())
+  email     String     @unique
+  username  String     @unique
+  password  String
+  role      Role       @default(USER)
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+  
+  smokeLogs SmokeLogs[]
+  userTasks UserTasks[]
+}
+
+enum Role {
+  USER
+  ADMIN
+}
+
+model SmokeLogs {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  timestamp DateTime @default(now())
+  location  String?
+  crisisLevel Int?   // 1-10
+  createdAt DateTime @default(now())
+
+  @@index([userId])
+  @@index([timestamp])
+}
+
+model TasksCatalog {
+  id          String   @id @default(cuid())
+  title       String
+  description String?
+  difficulty  Int      // 1-5
+  reward      Int      // XP points
+  freezeAmount Int?    // Optional freeze reward in minutes
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  userTasks UserTasks[]
+}
+
+model UserTasks {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  taskId    String
+  task      TasksCatalog @relation(fields: [taskId], references: [id], onDelete: Cascade)
+  completed Boolean  @default(false)
+  completedAt DateTime?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([userId])
+  @@index([taskId])
+}
