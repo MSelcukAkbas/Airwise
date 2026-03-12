@@ -1,0 +1,359 @@
+{
+  "onboarding": {
+    "languageLabel": "App Language",
+    "takeControl": {
+      "title": "Take Control",
+      "description": "SmokePace uses an algorithmic permission system to gradually reduce your smoking — without cold turkey.",
+      "nameLabel": "Your name",
+      "namePlaceholder": "Alex",
+      "dailyCountLabel": "Current daily cigarettes"
+    },
+    "schedule": {
+      "title": "Your Schedule",
+      "description": "The algorithm spaces your permissions across your active hours.",
+      "wakeUpLabel": "Wake up",
+      "sleepLabel": "Sleep",
+      "priceLabel": "Pack price ({{currency}})",
+      "currencyLabel": "Currency symbol"
+    },
+    "reduction": {
+      "title": "Reduction Speed",
+      "description": "Choose how aggressively the algorithm reduces your daily limit each week.",
+      "levels": {
+        "easy": {
+          "label": "Easy",
+          "desc": "Psychological comfort focused, the gentlest way.",
+          "details": "12 Weeks • 10% Reduction"
+        },
+        "normal": {
+          "label": "Balanced",
+          "desc": "The most preferred, steady method.",
+          "details": "8 Weeks • 15% Reduction"
+        },
+        "hard": {
+          "label": "Hard",
+          "desc": "For disciplined and determined users.",
+          "details": "4 Weeks • 30% Reduction"
+        },
+        "veteran": {
+          "label": "Veteran",
+          "desc": "Nightmare Mode. Aggressive and fast.",
+          "details": "10-14 Days • Very Aggressive"
+        }
+      }
+    },
+    "honesty": {
+      "title": "Honesty Check",
+      "description": "The mode you chose ({{mode}}) is a journey that requires strong will.",
+      "warning": "Be honest with yourself. If it feels too hard, you can switch to a gentler mode in Settings anytime. The goal isn't to quit for a day, but to achieve sustainable success.",
+      "agree": "I Promise & I'm Ready"
+    },
+    "summary": {
+      "title": "Your Plan Summary",
+      "dailyLimitLabel": "Current daily limit",
+      "dailyLimitValue": "{{count}} cigs",
+      "activeHoursLabel": "Active hours",
+      "permissionIntervalLabel": "Permission interval",
+      "permissionIntervalValue": "~{{minutes}} min",
+      "phaseLabel": "Phase",
+      "phaseValue": "Control (Days 1–7)"
+    },
+    "actions": {
+      "continue": "Continue",
+      "beginJourney": "Begin Journey"
+    }
+  },
+  "tabs": {
+    "home": "Home",
+    "log": "Log",
+    "tasks": "Tasks",
+    "profile": "Profile",
+    "roadmap": "Roadmap"
+  },
+  "roadmap": {
+    "day": "DAY {{day}}",
+    "labels": {
+      "start": "Start",
+      "milestone": "Day {{day}}",
+      "checkpoint": "Checkpoint",
+      "phase_boss": "Phase Master",
+      "halfway": "Halfway Through",
+      "almost_free": "Almost Free",
+      "smoke_free": "BORN AGAIN",
+      "control_pass": "Building Rhythm"
+    }
+  },
+  "home": {
+    "phases": {
+      "control": "Control Phase",
+      "reduction": "Reduction Phase",
+      "delay": "Delay Phase",
+      "freedom": "Freedom Phase"
+    },
+    "greeting": {
+      "morning": "Good morning",
+      "afternoon": "Good afternoon",
+      "evening": "Good evening"
+    },
+    "dayCount": "Day {{day}} of your journey",
+    "permission": {
+      "windowOpen": "Permission Window Open",
+      "maySmokeNow": "You may smoke now",
+      "smokeNow": "Smoke Now",
+      "skip": "Skip (+bonus)",
+      "next": "NEXT PERMISSION",
+      "interval": "Every ~{{minutes}} min today",
+      "smokeAnyway": "Smoke anyway (counts as extra)",
+      "limitBudgetSpent": "Daily limit reached"
+    },
+    "streaks": {
+      "control": "Control",
+      "target": "Target",
+      "dayStreak": "day streak",
+      "best": "Best: {{best}}"
+    },
+    "today": {
+      "title": "Today",
+      "extra": "+{{count}} extra",
+      "remaining": "{{count}} remaining",
+      "limitReached": "Limit reached",
+      "skipped": "{{count}} skipped today"
+    },
+    "craving": {
+      "title": "Craving Emergency",
+      "subtitle": "90-second barrier protocol"
+    }
+  },
+  "log": {
+    "title": "Log",
+    "types": {
+      "allowed": "Permitted",
+      "extra": "Extra",
+      "craving_survived": "Survived",
+      "craving_failed": "Craving"
+    },
+    "triggers": {
+      "stress": "Stress",
+      "caffeine": "After Coffee",
+      "after_meal": "After Meal",
+      "anxiety": "Anxiety",
+      "boredom": "Boredom",
+      "social": "Social",
+      "other": "Other"
+    },
+    "stats": {
+      "smoked": "Smoked",
+      "extra": "Extra",
+      "survived": "Survived",
+      "limit": "Limit"
+    },
+    "progress": {
+      "status": "{{cur}} of {{total}} cigarettes"
+    },
+    "sections": {
+      "today": "Today",
+      "history": "History"
+    },
+    "empty": {
+      "title": "No logs yet",
+      "description": "Your smoking sessions will appear here"
+    },
+    "intensity": "{{intensity}}/10",
+    "modal": {
+      "trigger": "Trigger",
+      "intensity": "Craving intensity",
+      "close": "Close"
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "phases": {
+      "control": { "label": "Control Phase", "sub": "Days 1–7: Building rhythm" },
+      "reduction": { "label": "Reduction Phase", "sub": "Weeks 2–8: Cutting down" },
+      "delay": { "label": "Delay Phase", "sub": "Extending intervals" },
+      "freedom": { "label": "Freedom Phase", "sub": "Final stretch" }
+    },
+    "difficulties": {
+      "easy": { "label": "Gentle", "desc": "-1/week" },
+      "normal": { "label": "Steady", "desc": "-2/week" },
+      "hard": { "label": "Intensive", "desc": "-3/week" }
+    },
+    "dayMode": "Day {{day}} · {{difficulty}} mode",
+    "sections": {
+      "phase": "PHASE PROGRESS",
+      "savings": "SAVINGS",
+      "streaks": "STREAKS",
+      "freeze": "FREEZE SHIELD",
+      "settings": "SETTINGS",
+      "cloudSync": "CLOUD SYNC"
+    },
+    "cloudSync": {
+      "desc": "Create an account to backup your progress to the cloud and sync across devices.",
+      "login": "Login / Register"
+    },
+    "stats": {
+      "reduced": "Reduced/day",
+      "interval": "Interval",
+      "xp": "XP earned",
+      "freeze": "Freeze left"
+    },
+    "savings": {
+      "estimated": "estimated total saved",
+      "today": "Today",
+      "notSmoked": "Not smoked",
+      "perCigarette": "Per cigarette"
+    },
+    "streaks": {
+      "current": "Current",
+      "best": "Best",
+      "control": "Control",
+      "target": "Target"
+    },
+    "freeze": {
+      "desc": "Use a freeze token to protect your streak from an unplanned slip. Tokens are earned through tasks — not purchasable.",
+      "btn": "Use Freeze Token ({{count}} left)"
+    },
+    "settings": {
+      "edit": "Edit",
+      "name": "Name",
+      "activeHours": "Active hours",
+      "dailyLimit": "Daily limit",
+      "packPrice": "Pack price",
+      "difficulty": "Difficulty",
+      "language": "Language",
+      "limitCount": "{{count}} cigarettes",
+      "priceDetails": "{{currency}}{{price}} / {{packSize}} cig"
+    },
+    "reset": "Reset & Restart Journey",
+    "editModal": {
+      "title": "Edit Settings",
+      "nameTitle": "NAME",
+      "namePlaceholder": "Your name",
+      "hoursTitle": "ACTIVE HOURS",
+      "wakeUp": "Wake up",
+      "sleep": "Sleep",
+      "limitTitle": "CURRENT DAILY LIMIT",
+      "cigPerDay": "Cigarettes per day",
+      "limitHint": "Changing this manually overrides the algorithm. Use with care.",
+      "cigSuffix": " cig",
+      "priceTitle": "CIGARETTE PRICE",
+      "pricePerPack": "Price per pack",
+      "cigPerPack": "Cigarettes per pack",
+      "currencyTitle": "CURRENCY",
+      "speedTitle": "REDUCTION SPEED",
+      "cancel": "Cancel",
+      "save": "Save Changes"
+    },
+    "resetModal": {
+      "title": "Reset Everything?",
+      "desc": "This will erase all your progress, streaks, and logs. This action cannot be undone.",
+      "confirm": "Yes, Reset",
+      "cancel": "Cancel"
+    }
+  },
+  "tasks": {
+    "title": "Tasks",
+    "xp": {
+      "level": "Level {{level}}",
+      "current": "{{current}} XP",
+      "toNext": "{{amount}} XP to next level"
+    },
+    "stats": {
+      "freeze": "Freeze Tokens",
+      "done": "Done today"
+    },
+    "sections": {
+      "daily": "DAILY CHALLENGES"
+    },
+    "card": {
+      "xpReward": "+{{amount}} XP",
+      "freezeReward": "🛡 Freeze",
+      "skip": "Skip",
+      "markDone": "Mark Done",
+      "claimed": "Reward claimed"
+    },
+    "badges": {
+      "pending": "{{count}} pending"
+    },
+    "empty": {
+      "title": "All done!",
+      "description": "No tasks assigned for today"
+    }
+  },
+  "craving": {
+    "breathing": {
+      "phase1": { "label": "Breathe In", "instruction": "Inhale slowly through your nose" },
+      "phase2": { "label": "Hold", "instruction": "Hold your breath gently" },
+      "phase3": { "label": "Breathe Out", "instruction": "Exhale fully through your mouth" }
+    },
+    "triggers": {
+      "stress": "Stress",
+      "caffeine": "After Coffee",
+      "after_meal": "After Meal",
+      "anxiety": "Anxiety",
+      "boredom": "Boredom",
+      "social": "Social",
+      "other": "Other"
+    },
+    "cancel": {
+      "title": "Craving Detected",
+      "subtitle": "Starting 90-second barrier protocol in {{countdown}}...",
+      "btn": "Cancel ({{countdown}})"
+    },
+    "barrier": {
+      "protocol": "4 — 7 — 8 Breathing Technique"
+    },
+    "triggerSelect": {
+      "title": "90 Seconds Complete",
+      "subtitle": "The peak has passed. What triggered your craving?",
+      "intensity": "Craving intensity: {{intensity}}/10",
+      "survived": "I Survived It",
+      "failed": "I Still Smoked"
+    },
+    "result": {
+      "successTitle": "You made it! (+15 XP)",
+      "successDesc": "You resisted the craving. This moment of discipline compounds over time.\n\nThe urge has passed — you're stronger than you think.",
+      "failTitle": "It happens",
+      "failDesc": "No shame in this. What matters is that you activated the protocol — that practice alone builds tolerance over time.",
+      "returnBtn": "Return to Dashboard"
+    }
+  },
+  "notFound": {
+    "title": "Oops!",
+    "text": "This screen doesn't exist.",
+    "link": "Go to home screen!"
+  },
+  "auth": {
+    "missingFields": "Missing required fields",
+    "userExists": "Email or username already exists",
+    "signupFailed": "Signup failed",
+    "credentialsRequired": "Email and password required",
+    "invalidCredentials": "Invalid credentials",
+    "loginFailed": "Login failed",
+    "fetchProfileFailed": "Failed to fetch profile",
+    "usernameExists": "Username already exists",
+    "updateFailed": "Update failed"
+  },
+  "notifications": {
+    "smokeAllowed": {
+      "title": "It's Time! 🚬",
+      "body": "You are now allowed to have one. Will you smoke or will you resist?"
+    },
+    "cravingReminder": {
+      "title": "Still Resisting? ✨",
+      "body": "You're doing amazing! Every second you wait is a win for your future self. 🌟"
+    },
+    "actions": {
+      "smoke": "I Smoked 🚬",
+      "resist": "I Resisted! ✨"
+    },
+    "setup": {
+      "title": "Stay Disciplined",
+      "desc": "Notifications are vital for the algorithm to alert you at the right time. We'll let you know once your next window opens.",
+      "allow": "Enable Notifications",
+      "skip": "Later"
+    }
+  }
+}
+
+

@@ -1,0 +1,50 @@
+{
+  "regions": [
+    {
+      "id": 1,
+      "region": "Türkiye",
+      "currency_code": "TRY",
+      "currency_symbol": "₺",
+      "quantity_per_pack": 20,
+      "average_price": 95.00
+    },
+    {
+      "id": 2,
+      "region": "ABD",
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "quantity_per_pack": 20,
+      "average_price": 10.00
+    },
+    {
+      "id": 3,
+      "region": "Avrupa Bölgesi",
+      "currency_code": "EUR",
+      "currency_symbol": "€",
+      "quantity_per_pack": 20,
+      "average_price": 7.50
+    },
+    {
+      "id": 4,
+      "region": "Birleşik Krallık",
+      "currency_code": "GBP",
+      "currency_symbol": "£",
+      "quantity_per_pack": 20,
+      "average_price": 16.00
+    },
+    {
+      "id": 6,
+      "region": "Çin",
+      "currency_code": "CNY",
+      "currency_symbol": "¥",
+      "quantity_per_pack": 20,
+      "average_price": 25.00
+    }
+  ],
+  "difficulties": [
+    { "key": "easy", "label": "Kolay", "desc": "Slow Reduce", "details": "-10%/hafta", "weeks": 12, "color": "#10b981" },
+    { "key": "normal", "label": "Orta", "desc": "Balanced", "details": "-15%/hafta", "weeks": 8, "color": "#f59e0b" },
+    { "key": "hard", "label": "Zor", "desc": "Hard Mode", "details": "-30%/hafta", "weeks": 4, "color": "#ef4444" },
+    { "key": "veteran", "label": "Veteran", "desc": "Hardcore", "details": "Agresif (Nightmare)", "days": 14, "color": "#7c3aed" }
+  ]
+}

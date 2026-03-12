@@ -1,0 +1,358 @@
+{
+  "onboarding": {
+    "languageLabel": "Uygulama Dili",
+    "takeControl": {
+      "title": "Kontrolü Ele Al",
+      "description": "SmokePace, sigarayı aniden bırakmak yerine algoritmik bir izin sistemiyle kademeli olarak azaltmanızı sağlar.",
+      "nameLabel": "İsminiz",
+      "namePlaceholder": "Ali",
+      "dailyCountLabel": "Günlük içilen sigara adedi"
+    },
+    "schedule": {
+      "title": "Programınız",
+      "description": "Algoritma, izinlerinizi uyanık olduğunuz saatlere böler.",
+      "wakeUpLabel": "Uyanma",
+      "sleepLabel": "Uyuma",
+      "priceLabel": "Paket fiyatı ({{currency}})",
+      "currencyLabel": "Para birimi sembolü"
+    },
+    "reduction": {
+      "title": "Azaltma Hızı",
+      "description": "Algoritmanın günlük limitinizi her hafta ne kadar agresif düşüreceğini seçin.",
+      "levels": {
+        "easy": {
+          "label": "Kolay",
+          "desc": "Psikolojik konfor odaklı, en rahat yöntem.",
+          "details": "12 Hafta • %10 Azaltma"
+        },
+        "normal": {
+          "label": "Orta",
+          "desc": "En çok tercih edilen, dengeli yöntem.",
+          "details": "8 Hafta • %15 Azaltma"
+        },
+        "hard": {
+          "label": "Zor",
+          "desc": "Disiplinli ve kararlı kullanıcılar için.",
+          "details": "4 Hafta • %30 Azaltma"
+        },
+        "veteran": {
+          "label": "Veteran",
+          "desc": "Nightmare Modu. Agresif ve hızlı.",
+          "details": "10-14 Gün • Çok Agresif"
+        }
+      }
+    },
+    "honesty": {
+      "title": "Dürüstlük Kontrolü",
+      "description": "Seçtiğin mod ({{mode}}) irade ve disiplin gerektiren bir süreçtir.",
+      "warning": "Kendine karşı dürüst ol. Eğer çok zor gelirse istediğin zaman Ayarlar'dan daha kolay bir moda geçebilirsin. Amaç pes etmek değil, sürdürülebilir bir başarı elde etmek.",
+      "agree": "Söz Veriyorum & Hazırım"
+    },
+    "summary": {
+      "title": "Plan Özeti",
+      "dailyLimitLabel": "Mevcut günlük limit",
+      "dailyLimitValue": "{{count}} adet",
+      "activeHoursLabel": "Aktif saatler",
+      "permissionIntervalLabel": "İzin aralığı",
+      "permissionIntervalValue": "~{{minutes}} dk",
+      "phaseLabel": "Aşama",
+      "phaseValue": "Kontrol (1-7. Gün)"
+    },
+    "actions": {
+      "continue": "Devam Et",
+      "beginJourney": "Yolculuğa Başla"
+    }
+  },
+  "tabs": {
+    "home": "Özet",
+    "log": "Günlük",
+    "tasks": "Görevler",
+    "profile": "Profil",
+    "roadmap": "Yol Haritası"
+  },
+  "roadmap": {
+    "day": "{{day}}. GÜN",
+    "labels": {
+      "start": "Başlangıç",
+      "milestone": "{{day}}. Gün",
+      "checkpoint": "Hedef Noktası",
+      "phase_boss": "Evre Ustası",
+      "halfway": "Yolun Yarısı",
+      "almost_free": "Özgürlüğe Yakın",
+      "smoke_free": "BÜYÜK ZAFER",
+      "control_pass": "Alışma Süreci"
+    }
+  },
+  "home": {
+    "phases": {
+      "control": "Kontrol Aşaması",
+      "reduction": "Azaltma Aşaması",
+      "delay": "Geciktirme Aşaması",
+      "freedom": "Özgürlük Aşaması"
+    },
+    "greeting": {
+      "morning": "Günaydın",
+      "afternoon": "Tünaydın",
+      "evening": "İyi akşamlar"
+    },
+    "dayCount": "Yolculuğunun {{day}}. günü",
+    "permission": {
+      "windowOpen": "İzin Penceresi Açık",
+      "maySmokeNow": "Şu an sigara içebilirsin",
+      "smokeNow": "Şimdi İç",
+      "skip": "Atla (+bonus)",
+      "next": "SONRAKİ İZİN",
+      "interval": "Bugün ortalama {{minutes}} dakikada bir",
+      "smokeAnyway": "Yine de iç (ekstra sayılır)",
+      "limitBudgetSpent": "Günlük limit doldu"
+    },
+    "streaks": {
+      "control": "Kontrol",
+      "target": "Hedef",
+      "dayStreak": "gün serisi",
+      "best": "En iyi: {{best}}"
+    },
+    "today": {
+      "title": "Bugün",
+      "extra": "+{{count}} ekstra",
+      "remaining": "{{count}} kaldı",
+      "limitReached": "Limite ulaşıldı",
+      "skipped": "bugün {{count}} kez atıldı"
+    },
+    "craving": {
+      "title": "Kriz Durumu",
+      "subtitle": "90 saniyelik bariyer protokolü"
+    }
+  },
+  "log": {
+    "title": "Kayıtlar",
+    "types": {
+      "allowed": "İzinli",
+      "extra": "Ekstra",
+      "craving_survived": "Atlatıldı",
+      "craving_failed": "Kriz"
+    },
+    "triggers": {
+      "stress": "Stres",
+      "caffeine": "Kahve sonrası",
+      "after_meal": "Yemek sonrası",
+      "anxiety": "Anksiyete",
+      "boredom": "Can sıkıntısı",
+      "social": "Sosyal",
+      "other": "Diğer"
+    },
+    "stats": {
+      "smoked": "İçilen",
+      "extra": "Ekstra",
+      "survived": "Atlatılan",
+      "limit": "Günlük Limit"
+    },
+    "progress": {
+      "status": "{{total}} sigara üzerinden {{cur}} adet"
+    },
+    "sections": {
+      "today": "Bugün",
+      "history": "Zaman Tüneli"
+    },
+    "empty": {
+      "title": "Henüz kayıt yok",
+      "description": "Sigara oturumlarınız burada görünecek"
+    },
+    "intensity": "{{intensity}}/10",
+    "modal": {
+      "trigger": "Tetikleyici",
+      "intensity": "Kriz şiddeti",
+      "close": "Kapat"
+    }
+  },
+  "profile": {
+    "title": "Profil",
+    "phases": {
+      "control": { "label": "Kontrol Aşaması", "sub": "1-7. Gün: Ritim oluşturma" },
+      "reduction": { "label": "Azaltma Aşaması", "sub": "2-8. Hafta: Azaltma" },
+      "delay": { "label": "Geciktirme Aşaması", "sub": "Arayı açma" },
+      "freedom": { "label": "Özgürlük Aşaması", "sub": "Son düzlük" }
+    },
+    "difficulties": {
+      "easy": { "label": "Hafif", "desc": "-1/hafta" },
+      "normal": { "label": "Dengeli", "desc": "-2/hafta" },
+      "hard": { "label": "Yoğun", "desc": "-3/hafta" }
+    },
+    "dayMode": "{{day}}. Gün · {{difficulty}} modu",
+    "sections": {
+      "phase": "AŞAMA İLERLEMESİ",
+      "savings": "TASARRUF",
+      "streaks": "SERİLER",
+      "freeze": "DONDURMA KALKANI",
+      "settings": "AYARLAR",
+      "cloudSync": "BULUT SENKRONİZASYON"
+    },
+    "cloudSync": {
+      "desc": "İlerlemenizi buluta yedeklemek ve cihazlar arasında senkronize etmek için bir hesap oluşturun.",
+      "login": "Giriş Yap / Kaydol"
+    },
+    "stats": {
+      "reduced": "Günlük azalan",
+      "interval": "Aralık",
+      "xp": "Kazanılan XP",
+      "freeze": "Kalan dondurma"
+    },
+    "savings": {
+      "estimated": "tahmini toplam tasarruf",
+      "today": "Bugün",
+      "notSmoked": "İçilmeyen",
+      "perCigarette": "Sigara başına"
+    },
+    "streaks": {
+      "current": "Mevcut",
+      "best": "En iyi",
+      "control": "Kontrol",
+      "target": "Hedef"
+    },
+    "freeze": {
+      "desc": "Planlanmamış bir kaçağa karşı serini korumak için bir dondurma jetonu kullan. Jetonlar satın alınamaz, sadece görevlerle kazanılır.",
+      "btn": "Dondurma Jetonu Kullan ({{count}} kaldı)"
+    },
+    "settings": {
+      "edit": "Düzenle",
+      "name": "İsim",
+      "activeHours": "Aktif saatler",
+      "dailyLimit": "Günlük limit",
+      "packPrice": "Paket fiyatı",
+      "difficulty": "Zorluk",
+      "language": "Dil",
+      "limitCount": "{{count}} sigara",
+      "priceDetails": "{{currency}}{{price}} / {{packSize}} sigara"
+    },
+    "reset": "Sıfırla ve Yeniden Başla",
+    "editModal": {
+      "title": "Ayarları Düzenle",
+      "nameTitle": "İSİM",
+      "namePlaceholder": "Adınız",
+      "hoursTitle": "AKTİF SAATLER",
+      "wakeUp": "Uyanma",
+      "sleep": "Uyuma",
+      "limitTitle": "MEVCUT GÜNLÜK LİMİT",
+      "cigPerDay": "Günlük sigara",
+      "limitHint": "Bunu manuel olarak değiştirmek algoritmayı geçersiz kılar. Dikkatli kullanın.",
+      "cigSuffix": " sigara",
+      "priceTitle": "SİGARA FİYATI",
+      "pricePerPack": "Paket fiyatı",
+      "cigPerPack": "Paketteki sigara",
+      "currencyTitle": "PARA BİRİMİ",
+      "speedTitle": "AZALTMA HIZI",
+      "cancel": "İptal",
+      "save": "Değişiklikleri Kaydet"
+    },
+    "resetModal": {
+      "title": "Her Şeyi Sıfırla?",
+      "desc": "Bu işlem tüm ilerlemenizi, serilerinizi ve kayıtlarınızı silecektir. Bu işlem geri alınamaz.",
+      "confirm": "Evet, Sıfırla",
+      "cancel": "İptal"
+    }
+  },
+  "tasks": {
+    "title": "Görevler",
+    "xp": {
+      "level": "Seviye {{level}}",
+      "current": "{{current}} XP",
+      "toNext": "Sonraki seviyeye {{amount}} XP"
+    },
+    "stats": {
+      "freeze": "Dondurma Jetonu",
+      "done": "Bugün biten"
+    },
+    "sections": {
+      "daily": "GÜNLÜK GÖREVLER"
+    },
+    "card": {
+      "xpReward": "+{{amount}} XP",
+      "freezeReward": "🛡 Dondurma",
+      "skip": "Atla",
+      "markDone": "Tamamla",
+      "claimed": "Ödül alındı"
+    },
+    "badges": {
+      "pending": "{{count}} bekliyor"
+    },
+    "empty": {
+      "title": "Hepsi tamam!",
+      "description": "Bugün için atanmış görev yok"
+    }
+  },
+  "craving": {
+    "breathing": {
+      "phase1": { "label": "Nefes Al", "instruction": "Burnundan yavaşça nefes al" },
+      "phase2": { "label": "Tut", "instruction": "Nefesini yavaşça tut" },
+      "phase3": { "label": "Nefes Ver", "instruction": "Ağzından tamamen nefes ver" }
+    },
+    "triggers": {
+      "stress": "Stres",
+      "caffeine": "Kahve Sonrası",
+      "after_meal": "Yemek Sonrası",
+      "anxiety": "Kaygı",
+      "boredom": "Sıkıntı",
+      "social": "Sosyal Ortam",
+      "other": "Diğer"
+    },
+    "cancel": {
+      "title": "Kriz Algılandı",
+      "subtitle": "{{countdown}} saniye içinde 90 saniyelik bariyer protokolü başlatılıyor...",
+      "btn": "İptal ({{countdown}})"
+    },
+    "barrier": {
+      "protocol": "4 — 7 — 8 Nefes Tekniği"
+    },
+    "triggerSelect": {
+      "title": "90 Saniye Tamamlandı",
+      "subtitle": "Tepe noktası geçti. Krizini ne tetikledi?",
+      "intensity": "Kriz şiddeti: {{intensity}}/10",
+      "survived": "Dayanabildim",
+      "failed": "Yine İçtim"
+    },
+    "result": {
+      "successTitle": "Başardın! (+15 XP)",
+      "successDesc": "Krize direndin. Bu disiplin anı zamanla birikir.\n\nDürtü geçti — sandığından daha güçlüsün.",
+      "failTitle": "Olur böyle şeyler",
+      "failDesc": "Bunda utanılacak bir şey yok. Önemli olan protokolü başlatmış olman — bu pratik tek başına bile zamanla tolerans kazandırır.",
+      "returnBtn": "Panele Dön"
+    }
+  },
+  "notFound": {
+    "title": "Oops!",
+    "text": "Bu ekran mevcut değil.",
+    "link": "Ana ekrana git!"
+  },
+  "auth": {
+    "missingFields": "Eksik bilgi girdiniz",
+    "userExists": "E-posta veya kullanıcı adı zaten kullanımda",
+    "signupFailed": "Kayıt işlemi başarısız",
+    "credentialsRequired": "E-posta ve şifre gereklidir",
+    "invalidCredentials": "Geçersiz kimlik bilgileri",
+    "loginFailed": "Giriş başarısız",
+    "fetchProfileFailed": "Profil yüklenemedi",
+    "usernameExists": "Kullanıcı adı zaten kullanımda",
+    "updateFailed": "Güncelleme başarısız"
+  },
+  "notifications": {
+    "smokeAllowed": {
+      "title": "İzin Saati Geldi 🚬",
+      "body": "Şu an bir adet içebilirsin. Direnmeyi mi yoksa içmeyi mi seçiyorsun?"
+    },
+    "cravingReminder": {
+      "title": "Hala Direniyor Musun? ✨",
+      "body": "Harika gidiyorsun! Beklediğin her saniye akciğerlerin sana teşekkür ediyor. 🌟"
+    },
+    "actions": {
+      "smoke": "İçtim 🚬",
+      "resist": "Direndim! ✨"
+    },
+    "setup": {
+      "title": "Disiplini Kaybetme",
+      "desc": "Algoritmanın seni doğru zamanda uyarması için bildirimler hayati önem taşır. İzin saatin geldiğinde sana haber vereceğiz.",
+      "allow": "Bildirimleri Aç",
+      "skip": "Daha Sonra"
+    }
+  }
+}
+
